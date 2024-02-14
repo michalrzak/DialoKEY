@@ -53,15 +53,22 @@ What's the street that I should get off on? END
 Create a python 3.11 environment and install the packages in the requirements.txt
 (The code was tested on python 3.11.7)
 
+Some notebooks will further require you to set your OpenAI API key as the `OPENAI_API_KEY` envrionment variable. 
+
 Linux:
 (Inside the root of this repository)
 ```
 python3.11 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+export OPENAI_API_KEY=<your-api-key>
 ```
 
 Other OS analogously
 
 
-You can check whether your created training data is correct using: <https://cookbook.openai.com/examples/chat_finetuning_data_prep>
+# Usage note
+
+When creating new dataset, you can use: <https://cookbook.openai.com/examples/chat_finetuning_data_prep> to validate whether your dataset is correct and to estimate the costs of the fine tune.
+
+
