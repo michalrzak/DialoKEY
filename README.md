@@ -64,3 +64,4 @@ pip install -r requirements.txt
 Other OS analogously
 
 
+You can check whether your created training data is correct using: <https://cookbook.openai.com/examples/chat_finetuning_data_prep>
